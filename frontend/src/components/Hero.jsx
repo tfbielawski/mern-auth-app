@@ -15,7 +15,7 @@ const Hero = () => {
             Mongo DB where users data is stored and from which it is retrieved.
             It uses Redux Toolkit for state management and Bootstrap for CSS styling.
             The back end is not deployed at this time. I intend to deploy it as soon
-            as I can find reasonable hosting. 
+            as I can find reasonable hosting.
           </p>
           <div className='d-flex'>
             <LinkContainer to="/login">
