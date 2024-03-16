@@ -10,9 +10,12 @@ const Hero = () => {
         <Card className='p-5 d-flex flex-column align-items-center hero-card bg-light w-75'>
           <h1 className='text-center mb-4'>MERN Authentication</h1>
           <p className='text-center mb-4'>
-            This is a boilerplate for MERN authentication that stores a JWT in
-            an HTTP-Only cookie. It also uses Redux Toolkit and the React
-            Bootstrap library
+            This is a basic MERN app with login authentication, which
+            stores a JWT in an HTTP-Only cookie. It is connected to which
+            Mongo DB where users data is stored and from which it is retrieved.
+            It uses Redux Toolkit for state management and Bootstrap for CSS styling.
+            The back end is not deployed at this time. I intend to deploy it as soon
+            as I can find reasonable hosting. 
           </p>
           <div className='d-flex'>
             <LinkContainer to="/login">
